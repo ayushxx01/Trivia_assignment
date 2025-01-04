@@ -1,51 +1,48 @@
-Trivia App
+**Trivia App:**
 A new Flutter project for a trivia application.
 
-Getting Started
+**Getting Started:**
 This project serves as a starting point for a Flutter application.
 
-Prerequisites
+**Prerequisites:**
+
 Ensure you have the following tools installed:
 
-Flutter SDK
-Dart SDK
-Android Studio or Xcode (for mobile development)
-Visual Studio Code (optional, but recommended)
-Installation
+1:Flutter SDK
+2:Dart SDK
+3:Android Studio or Xcode (for mobile development)
+4:Visual Studio Code (optional, but recommended)
+
+**Installation**
 Follow these steps to set up and run the project:
 
-Clone the repository
-
-bash
-Copy code
+**Clone the repository**
 git clone https://github.com/yourusername/trivia_app.git  
 cd trivia_app
-Install dependencies
 
-bash
-Copy code
+**Install dependencies**
 flutter pub get
-Run the application
 
-bash
-Copy code
+**Run the application**
 flutter run
-Configuration
+
+**Configuration**
 pubspec.yaml:
 Contains the project's dependencies and configurations.
 
 analysis_options.yaml:
 Defines the linting rules for the project.
 
-About the Project
+**About the Project**
 This project leverages two powerful Flutter packages—Hive and Provider—for efficient state management, data persistence, and app functionality.
 
-1. Hive
+**1. Hive**
 A lightweight and fast key-value database.
 Used to persist data like user preferences and game history locally on the user's device.
 Enables the app to function seamlessly offline without requiring an internet connection.
 Ideal for scenarios needing quick read/write operations.
-2. Provider
+
+**2. Provider**
 A popular state management solution in Flutter.
 Simplifies managing and modifying app states in response to user interactions.
 Manages the app's state, including:
